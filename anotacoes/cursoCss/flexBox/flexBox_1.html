@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1>O que e FlexBox</h1>
+      <p> flex sempre no container</p>
+      <ul>
+         <li>flexibel box model</li>
+         <li> aplicamos com display:flex</li>
+         <li> organização dos nossolayout se tornarem
+            flexivel e dinamica
+         </li>
+         <li> por padrao,todos item do container
+            fica lado a lado
+         </li>
+         <li>grande capacidade de responsividade</li>
+      </ul>
+      <h2>dsplay flex :</h2>
+      <h2> Posição do item</h2>
+      <p> flex- direction:row em linha</p>
+      <p> flex-direction:column coluna</p>
+      <!--  -->
+      <h2>main axis & cross axis</h2>
+      <p>main axis flex direction row linha e horizonta</p>
+      <p>cross axis flex direction row linha e vertical</p>
+      <br/>
+      <p> o main  axis flex-direction :column e na vertical</p>
+      <p> o cross  axis flex-direction :column e na horizontal</p>
+         <div class="container">
+            <div class="box_1">
+               <h1>box 1</h1>
+               <p>Helllo </p>
+            </div>
+            
+            <div class="box_3">
+               <h1>box 1</h1>
+               <p>Helllo </p>
+            </div>
+            <div class="box_2">
+               <h1>box 1</h1>
+               <p>Helllo </p>
+            </div>
+            <div class="box_3">
+               <h1>box 1</h1>
+               <p>Helllo </p>
+            </div>
+         </div>
+
+         <h2>Justify-content:</h2>
+         <p>alinha os item no <strong>main axis</strong></p>
+         <ul>
+            <li>flex-start :inicio do container</li>
+            <li>flex-end : alinha item no final</li>
+            <li>center alinha item no centro</li>
+            <li>space-between: distribui os item igualmente no container</li>
+            <li>spcae-around:com margem dos lados</li>
+            <li>space-evely:</li>
+         </ul>
+         <h2>align-items</h2>
+         <p>alinha os item no <strong>cross axis</strong></p>
+         <ul>
+            <li>stretch: faz item cresçam igualmente </li>
+            <li>flex-start:alinhas os item no inicio do container</li>
+            <li>flex-end alinha os item no final do container</li>
+            <li>center alinha os item no centro do container</li>
+         </ul>
+       <h2>align-content</h2>
+       <p>alinha as linha do container verticalmente</p>
+       <ul>
+            <li>stretch: faz com que os itens cresça igualmente </li>
+            <li>flex-start:a linha as linha do inicio do container</li>
+            <li>flex-end :alinha as linha no final do container</li>
+            <li>center alinha os item no centro do container</li>
+            <li>space-between:distribui as linha igualmente no container</li>
+            <li>space-around: spcaebetween com margens verticais</li>
+         </ul>
+         <h2>flex-flow </h2>
+         <p>com a propriedade flex-flow podemos 
+         adicionar responsividade ao nosso layout de um forma muito simples</p>
+       <p>com a propriedade flex flow podemos adicionar responsvidade ao nosso layout de uma forma mt simples</p>
+         <h4>seus valores</h4>
+         <ul>
+            <li>nowrap: nao permite quebrar linha</li>
+            <li>wrap quebra a linha assim que um dos item nao couber nela</li>
+         </ul>
+         <h2> flex item</h2>
+         <p>order: define a ordem do elemento no container<br/>
+         order:1,order:2,orde:3</p>
+         <p>flex define o tamanho do elemento no main-axis baseado no tamanho do container</p>
+            <p>flex-basis :define o tamanho do elemento baseado no main-axis </p>
+      </body>
+</html>

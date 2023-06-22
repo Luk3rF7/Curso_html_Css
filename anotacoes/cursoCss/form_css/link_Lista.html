@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>formulario  & link</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <aside class="main_aside">
+      <div class="container">
+         <h2>Rede social</h2>
+         <ul>
+           <li>
+              <a href="./form.html">Formulario</a>
+           </li>
+            <li> <a href="https://www.google.com.br">google</a></li>
+            <li> <a href="www.google.com">google</a></li>
+            <li> <a href="www.google.com">google</a></li>
+            <li> <a href="www.google.com">google</a></li>
+         </ul>
+         <h2>Lista</h2>
+         <ul>
+            <p>list-style: define como vai demostrar a lista exemplo</p>
+            <li> none = sem marcação</li>
+            <li> square = quadrado </li>
+            <li> decimal = numero</li>
+            <li> outisde = bolinhas</li>
+            <li>circle = circo</li>
+            <li>text-align vai posiciona o texto ou que tiver dentro do elemento</li>
+         </ul>
+         <h2>Link</h2>
+         <ul>
+            <p> utilizamos nos link o text decorate</p>
+            <li>text-decoration: none vai remover linha do link ou texto</li>
+            <li>dashed  vai deixa  linha pontilhada </li>
+         </ul>
+         <h2>pseudo-Classe</h2>
+         <ul>
+            <p>hover</p>
+            <li>hover vai dar efeito qndo passamo o mouse ou evento</li>
+            <li>visited  ele modifica mostrando que visitamo aquele link ou page</li>
+         </ul>
+         <h2> Position</h2>
+         <ul>
+            <p>Position e reponsavel pela posição do elemento </p>
+            <li>static valor padrao segue fluxo da pagina top,bottom,rifght e left nao funciona</li>
+            <li>relative elemeto e posicionado em relaçção ao normal
+               proriedade top,bottom,right,left são aplicaveis
+               ela movem exemple: 
+               .realtive{ <br/>
+                  position:relative; <br/>
+                  left: 30px;<br/>
+                  top:50px; ele vai deslocar 50xp<br/>
+                  border:3px solid black;<br/>
+               }
+            </li>
+            <li><h2>absolute</h2>
+               <p>elemento e posicionado em relação ao seu elemento pai mais proximo <br/>
+                  que possui position:relative,<br/>
+                  se o elemento nao tiver nenhum elemento pai <br/>
+                  position relative ,posicionamento em relação ao body<br/>
+               </p>
+               <h1>Exemplo</h1>
+               <div id="relative">
+                  div position:relative
+                  <div id="absolute">
+                     The div postion:absolute
+                  </div>
+               </div>
+            </li>
+            <li> <h2>Fixed</h2> 
+               <p>Fixed elemento e posicionado em relação ao viewport</p>
+               <p>sempre fica na mesma posição ,mesmo se a pagina rodar</p>
+               <p>Propriedade top,botton,left,right são aplicaveis </p>
+               <h3>Exemplo</h3>
+               <br/>
+               <div id="cotnainer">
+                  <div id="fixed">
+                     elemento position fixed
+                     viewport
+                  </div>
+               </div>
+            </li>
+            <li>sticky
+               <p>elemento e posicionadoem relaçao ao scroll do usuario</p>
+                <p>Propriedade top,botton,left,right são aplicaveis </p>
+
+                <div id="sticky">
+                  i am stick 
+                </div>
+                <div style="padding-bottom:20000px">
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus aliquam 
+                  eos fugit aperiam, sed harum qui, ea eveniet dolore dolorum hic voluptatem vero ex.
+                   Iste repellat ipsam porro, dolore aliquam obcaecati possimus atque sunt est labore 
+                   autem inventore modi nihil nobis repellendus consequuntur amet sit ipsa iure. Beatae
+                    voluptatem dolor vero minus eligendi quisquam illum dignissimos, nobis numquam fuga
+                     nulla assumenda perspiciatis culpa temporibus dicta aut cum, iste quo tenetur repellat 
+                     laboriosam, enim distinctio exercitationem! Debitis dolorem facere ut ullam nostrum i
+                     ste deleniti, nesciunt dolores dolore itaque dolorum delectus hic magnam, i
+                  llo cumque error. Reiciendis numquam cupiditate distinctio delectus!</p>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </aside>
+
+
+</body>
+</html>
