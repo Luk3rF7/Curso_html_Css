@@ -1,0 +1,58 @@
+.container {
+  width: 200%;
+  height: 100%;
+
+  /*
+  definir linha e coluna 
+  1fr - > espaço da coluna
+  */
+  display: grid;
+  /* repeat(2 ,300px) -> vai repetir  exemplo 
+  auto-fill vai preencher
+  */
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: 300px 300px;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  /* grid-area:
+  grid area defina cada area onde sera 
+  definida
+  */
+  grid-template-areas:
+    "green yellow"
+    "pink white"
+    "red blue";
+}
+
+div {
+  height: 200px;
+  width: 200px;
+}
+
+.red {
+  background-color: red;
+  /* utilizando grid-area */
+  grid-area: red;
+  /* mudando posição com grid
+      grid-row: 2;
+      grid-column: 1;
+  */
+}
+.blue {
+  background-color: blue;
+  grid-area: blue;
+}
+.green {
+  background-color: green;
+
+  /* UTILIZANDO GRID:
+    grid-row: 1;
+  grid-column: 1; 
+  */
+  grid-area: green;
+}
+.yellow {
+  background-color: yellow;
+  grid-area: yellow;
+}
