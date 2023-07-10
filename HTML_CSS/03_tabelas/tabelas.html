@@ -19,67 +19,148 @@
         </ul>
       </nav>
     </header>
+    <!-- Formulario -->
+    <main class="section_form">
+      <h1>Formulario</h1>
+      <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>
+          <label for="nome">Nome:</label>
+          <input type="text" id="name" name="name" placeholder="seu nome:"/>
+          <br/>
+          <label for="numero">Número:</label>
+          <input type="number" id="name" name="name" placeholder="digite um numero" />
+          <br/>
+          <label for="email">E-mail:</label>
+          <input type="email" id="name" name="name" placeholder="seu E-mail:" value="user@example.com" />
+          <label for="email">Password:</label>
+          <input type="password" id="name" name="name" placeholder="digite sua senha:" value="user@example.com" />
+        </p>
+        <p>
+        <p><br></p>
+          <label for="dev">Qual Developer você é:</label><br />
+          <label for="profissao">frontend</label>
+          <input type="checkbox" id="dev" name="dev" value="sim" />
+          <label for="profissao">Backend</label>
+          <input type="checkbox" id="dev" name="dev" value="sim" /><br />
+          <hr/>
+          Gênero:<br />
+          <label for="masculino">Masculino:</label>
+          <input type="radio" id="dev2" name="genero" value="sim" />
+          <label for="feminino">Femenino:</label>
+          <input type="radio" id="dev3" name="genero" value="sim" />
+        </p>
+        <hr />
+        <p>
+          <label for="date">time:</label>
+          <input type="time" id="date" name="date">
+          <br>
+          <label for="data">Data:</label>
+          <input type="date" id="date" name="date">
+          <br>
+          <label for="date">Data time:</label>
+          <input type="datetime-local" id="date" name="date">
+        
+        </p>
+        <label for="file">Arquivo :</label>
+        <input type="file" id="file" name="file" accept=".png,.svg,images/*">
+        <br/>
+        <hr />
+        <label for="cor">Cor preferida</label>
+        <input type="color" id="cor" name="cor" 
+        >
+        <hr />
+        <label for="range">Range</label>
+        <input type="range" id="range" name="ranger" style="color:orange;" list="tickmarks">
+          <datalist id="tickmarks">
+          <option value="0" label="0%">
+          <option value="10" >
+          <option value="20" >
+          <option value="30" >
+          <option value="40" >
+          <option value="50" label="50%">
+          <option value="60" >
+          <option value="70" >
+          <option value="80" >
+          <option value="90" >
+            <option value="100" label="100%"></option>
+        </datalist>
+        <p>
+          <button id="reset" type="reset">Reset</button>
+          <button id="submit" type="submit">Enviar</button>
+        </p>
+      <p>
+        <label for="search">Pesquise:</label>
+        <input type="search" id="date" name="search" placeholder="pesquise"><br>
+        <label for="url">Url:</label>
+        <input type="url" id="date" name="search" placeholder="pesquise"><br>
+        <label for="select">Selecione:</label>
+        <select id="select" name="select">
+            <option value="valor">valor 1</option>
+            <option value="valor">valor 2</option>
+        </select>
+
+      </p>
+      </form>
+    </main>
     <!-- Tabela -->
     <section class="section_table">
-      <div class="responsive-table">
-        <h1>Tabela</h1>
-        <table>
-          <caption>
-            Descrição tabela
-          </caption>
-          <thead>
-            <tr>
-              <th id="quantidade">Quantidade</th>
-              <th id="product">Produto</th>
-              <th id="price">Preço</th>
-              <th id="Soma">Soma</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>quantidade</td>
-              <td>Product</td>
-              <td>R$:</td>
-              <td>R$:</td>
-            </tr>
-            <tr>
-              <td>quantidade</td>
-              <td>Product</td>
-              <td>R$:</td>
-              <td>R$:</td>
-            </tr>
-            <tr>
-              <td>quantidade</td>
-              <td>Product</td>
-              <td>R$:</td>
-              <td>R$:</td>
-            </tr>
-            <tr>
-              <td>quantidade</td>
-              <td>Product</td>
-              <td>R$:</td>
-              <td>R$:</td>
-            </tr>
-            <tr>
-              <td>quantidade</td>
-              <td>Product</td>
-              <td>R$:</td>
-              <td>R$:</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="3" rowspan="2"></td>
-              <td>
-                <b>Total</b>
-              </td>
-            </tr>
-            <tr>
-              <td><b>R$:</b></td>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
+      <h1>Tabela</h1>
+      <table>
+        <caption>
+          Descrição tabela
+        </caption>
+        <thead>
+          <tr>
+            <th id="quantidade">Quantidade</th>
+            <th id="product">Produto</th>
+            <th id="price">Preço</th>
+            <th id="Soma">Soma</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>quantidade</td>
+            <td>Product</td>
+            <td>R$:</td>
+            <td>R$:</td>
+          </tr>
+          <tr>
+            <td>quantidade</td>
+            <td>Product</td>
+            <td>R$:</td>
+            <td>R$:</td>
+          </tr>
+          <tr>
+            <td>quantidade</td>
+            <td>Product</td>
+            <td>R$:</td>
+            <td>R$:</td>
+          </tr>
+          <tr>
+            <td>quantidade</td>
+            <td>Product</td>
+            <td>R$:</td>
+            <td>R$:</td>
+          </tr>
+          <tr>
+            <td>quantidade</td>
+            <td>Product</td>
+            <td>R$:</td>
+            <td>R$:</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" rowspan="2"></td>
+            <td>
+              <b>Total</b>
+            </td>
+          </tr>
+          <tr>
+            <td><b>R$:</b></td>
+          </tr>
+        </tfoot>
+      </table>
     </section>
   </body>
 </html>
