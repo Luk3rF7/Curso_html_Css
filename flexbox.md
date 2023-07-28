@@ -54,7 +54,9 @@
   <li>align-content:flex-end -> toda linha vao  para o final flex</li>
   <li>align-content:center ->ele vai centralizar </li>
 
-  <li>Order determina ordem do elemento </li>
-  <li>align-self -> alinha um determinado elemento</li>
-  <li>flex-grow definir a logica de como vai definir espaço q ta faltando</li>
+  <li>Order determina ordem do elemento </p>
+  <li>align-self -> alinha um determinado elemento</p>
+  <li>flex-grow definir a logica de como vai definir espaço q ta faltando</p>
+
+<li>flex-basis e a propriedade sobre qual largura do flex container</li>
 </div>
