@@ -60,3 +60,25 @@
 
 <li>flex-basis e a propriedade sobre qual largura do flex container</li>
 </div>
+<div style="font-size:18px;">
+<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide Flex </a>
+
+<p>flex container tera main axis e cross axis principal</p>
+<p>row nosso eixo e horizontal e columns e vertical</p>
+<p>justify-content:space-around:</p>
+<li>flex-start: inico / flex-end : final</li>
+<li>center ficara centralizado</li>
+<li>space-between:espaço disponivel e distribuido entre elemeentos </li>
+<li>space-around: um espaço entre elemento</li>
+<p>centralizar no meio do container utiliza</p>
+               
+              
+              container{
+                  justify-content:center
+                  align-items:center
+                }
+              
+<p>center ficara centralizado</p>
+<p>align-items pega as linha e item</p>
+<p>align-content pega as conteudo  e  a linha</p>
+</div>
