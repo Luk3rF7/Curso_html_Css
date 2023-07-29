@@ -1,7 +1,7 @@
 <h1 align="center">grid</h1>
 
 <div style="font-size:18px;">
-<a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Grid trick</a>
+<a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Grid trick</a> <br>
 <a href="https://www.w3schools.com/css/css_grid.asp">Grid w3 school</a>
 
 <p>Grid são grades onde se tem que configurar as linhas ou colunas</p>
