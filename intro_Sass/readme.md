@@ -87,3 +87,18 @@ e a gente usa includes para adiciona como exemplo : </li>
 
 <p style="font-size:18px;"> em pseudo classe utilizamos &:hover,active,nth-child etc
 onde posso tbm utilizar para referenciar classe exemplo : &.class
+
+                        posso adicionar if 
+                        $min: breakpoint-min($name,$breakpoints $grid-breakpoints);
+                        @return if($min !==, $min, null)
+
+                        @mixin media-breakpoint-up($name,$breakpoints: $grid-breakpoints);
+                        $min: breakpoint-min($name,$breakpoints);
+                        @if $min {
+                        @media (min-width: $min){
+                        @content;
+                        }
+                        } @else {
+                        @content;
+                        }
+                        }
