@@ -76,7 +76,7 @@ header ul li a:hover{
 .content h1{
   color:#f0f0f0;
   font-size: 72px;
-  padding-top: 40px;
+  padding-top: 30px;
   text-shadow: 0 3px 5px #000;
 }
 
@@ -111,8 +111,8 @@ header ul li a:hover{
 }
 
 .content .icons a{
-  font-size: 25px;
-  margin:13px 0;
+  font-size: 20px;
+  margin:15px 0px;
   color:#f0f0f0;
   text-shadow: 0 3px 5px #000;
 }
@@ -153,6 +153,5 @@ header ul li a:hover{
   text-align: center;
   background-color: #000;
   color:#FFC700;
-  border-top:1px solid #FFC700;
   width: 100%;
 }
