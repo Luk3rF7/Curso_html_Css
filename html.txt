@@ -1,0 +1,35 @@
+tags semanticas
+
+header = [
+banner 
+formulario 
+icones 
+menu de navegação
+]
+
+nav agrupa conjunto de navegação = [ menu ]
+main conteudo principal do site = [Principal]
+aside Relacionado com lnk do conteudo = [Relaconado]
+footer conten informações = [
+  informação do site 
+  direito autorais 
+  mapa do site 
+  link 
+  documento 
+]
+
+Css 
+
+#id {} 
+
+.class {}
+
+tags {}
+
+Flexbox 
+
+contem container onde terao elementos pai,filhos e irmao
+
+flex-grow -> habilidade de um flex item crescer 
+flex-shrink -> capacidade de redução do item 
+flex-basis  -> tamanho inicial do item 

@@ -1,0 +1,46 @@
+/* grid 1 */
+.grid1{
+  display: grid;
+  /* 1fr = 1fracional e como dividir 100% em 3 parte */
+  /* outro modo e repeat */
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:20px;
+  max-width:800px;
+  padding:10px;
+  margin: 0 auto;
+}
+/* 
+posso utilizar forma matematica
+n + 5 apartir do 5 item ele vai selecionar
+*/
+.grid1 > div:nth-child(n + 4){
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:10px;
+
+  align-items: center;
+  background: rgba(0,0,0,.1);
+}
+
+/* posicionando anuncio */
+
+.grid1 > div.anuncio {
+  grid-column: 1;
+  grid-row: 2 / 5 ;
+  border-top: 10px solid tomato;
+  display: block;
+}
+
+@media (max-width: 600px){
+  .grid1{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .grid1 > div:nth-child(n +4){
+    display: block;
+  }
+  .grid1 > div.anuncio{
+    grid-column: auto;
+    grid-row: auto;
+    order:-1;
+  }
+}
