@@ -36,7 +36,6 @@ Quando definimos o flex-grow: 1; e possuímos auto no basis, o valor restante pa
 <p>
 Define a capacidade de redução de tamanho do item.
 </p>
-<hr>
 
       flex-shrink: 1;
       // Valor padrão, permite que os itens tenham os seus tamanhos (seja esse tamanho definido a partir de width ou flex-basis) reduzidos para caber no container.
@@ -45,6 +44,7 @@ Define a capacidade de redução de tamanho do item.
       flex-shrink: número;
       // Um item com shrink: 3 diminuirá 3 vezes mais que um item com 1.
 
+<hr>
 <h2>flex</h2>
 <p>
     Atalho para as propriedades flex-grow, flex-shrink e flex-basis. Geralmente você verá a propriedade flex nos flex itens ao invés de cada um dos valores separados.
@@ -68,13 +68,13 @@ No exemplo é possível ver as mesmas configurações do exemplo do flex-basis p
 <p>
 Modifica a ordem dos flex itens. Sempre do menor para o maior, assim order: 1, aparece na frente de order: 5.
 </p>
-<hr>
 
      order: número;
     // Número para modificar a ordem padrão. Pode ser negativo.
     order: 0;
     // 0 é o valor padrão e isso significa que a ordem dos itens será a ordem apresentada no HTML. Se você quiser colocar um item do meio da lista no início da mesma, sem modificar os demais, o ideal é utilizar um valor negativo para este item, já que todos os outros são 0.
 
+<hr>
 <h2>align-self</h2>
 <p>
 O align-self serve para definirmos o alinhamento específico de um único flex item dentro do nosso container. Caso um valor seja atribuído, ele passara por cima do que for atribuído no align-items do container.
