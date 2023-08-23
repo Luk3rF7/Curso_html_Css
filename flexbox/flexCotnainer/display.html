@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex-Direction</title>
+</head>
+<style>
+  body{
+    font-size: 1.2em;
+    text-align: center;
+    width: 80vw;
+    height: 100vh;
+    margin: 0px auto;
+    border:2px solid #b0f;
+    border-radius: 20px;
+  }
+  .item {
+    max-width: 100%;
+    margin:3px;
+    background-color: #b0f;
+    flex:1;
+  }
+  .container{
+    max-width: 400px;
+    margin:10px auto;
+    border:1px solid #b0f;
+    background:#b0f8b0;
+    color:#000;
+  }
+  h1{
+    text-align: center;
+    border-bottom: 2px solid #b0f8b0;
+  }
+  /* flex */
+  .flex{
+    display:flex;
+  }
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
+  .flex-item-1{
+    flex:1;
+  }
+</style>
+<body>
+  <h1>display:block;</h1>
+    <div class="container">
+      <div class="item" >1</div>
+      <div class="item" >2</div>
+      <div class="item" >3</div>
+      <div class="item" >4</div>
+    </div>
+    <h1>display:flex</h1>
+    <div class="container flex">
+      <div class="item" >1</div>
+      <div class="item" >2</div>
+      <div class="item" >3</div>
+      <div class="item" >4</div>
+    </div>
+    <h1>display:flex sem wrap</h1>
+    <div class="container flex">
+      <div class="item" >teste 1</div>
+      <div class="item" >teste 2</div>
+      <div class="item" >teste 3</div>
+      <div class="item" > teste 4</div>
+      <div class="item" > teste 5</div>
+      <div class="item" > teste 6</div>
+      <div class="item" > teste 7</div>
+    </div>
+    <h1>display:flex Com flex-wrap</h1>
+    <div class="container flex flex-wrap">
+      <div class="item" >teste 1</div>
+      <div class="item" >teste 2</div>
+      <div class="item" >teste 3</div>
+      <div class="item" > teste 4</div>
+      <div class="item" > teste 5</div>
+      <div class="item" > teste 6</div>
+      <div class="item" > teste 7</div>
+    </div>
+    <h1>display:flex Com flex-item</h1>
+    <div class="container flex">
+      <div class="item flex-item-1" >teste 1</div>
+      <div class="item flex-item-1" >teste 2</div>
+      <div class="item flex-item-1" >teste 3</div>
+    </div>
+</body>
+</html>
