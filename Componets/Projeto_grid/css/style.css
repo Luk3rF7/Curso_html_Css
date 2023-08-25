@@ -233,6 +233,13 @@ p {
   padding: 30px;
   grid-gap: 30px;
 }
+
+.anuncios  img:hover {
+  box-shadow: 15px 10px 5px 0 rgba(44,44,44,0.25);
+}
+.anuncios  img {
+  transition: .20s ease;
+}
 /* footer */
 .footer {
   grid-area: footer;
