@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid </title>
+  <style>
+    body{
+      margin:0;
+      padding:0;
+    }
+    .container{
+      width: 100%;
+      max-width: 1200px;
+      border:2px solid tomato;
+      margin:0 auto;
+    }
+
+    .grid-container {
+      display: grid;
+      /*    grid-template-columns:1fr 1fr 1fr 1fr; */
+      /*   grid-template-columns:minmax100px 100px 100px 100px; */
+      /*  grid-template-columns:minmax(300px,2fr) 3fr; */
+      /*  grid-template-columns:repat(auto-fit,minmax(300px,auto)); */
+      grid-template-columns:repeat(4,1fr);
+      gap:20px;
+      
+    }
+    .grid-item {
+      background: rgb(0 0 255 / 15%);
+      border: 2px solid blue;
+    }
+    .grid-item:hover {
+      background: violet;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+      <div class="container">
+        <div class="grid-container">
+          <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum deleniti doloribus amet! Voluptate qui beatae minima saepe doloremque maiores.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum deleniti doloribus amet! Voluptate qui beatae minima saepe doloremque maiores.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum deleniti doloribus amet! Voluptate qui beatae minima saepe doloremque maiores.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum deleniti doloribus amet! Voluptate qui beatae minima saepe doloremque maiores.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum deleniti doloribus amet! Voluptate qui beatae minima saepe doloremque maiores.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum deleniti doloribus amet! Voluptate qui beatae minima saepe doloremque maiores.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+          <div class="grid-item">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>  
+</body>
+</html>
